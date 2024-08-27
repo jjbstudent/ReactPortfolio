@@ -28,9 +28,17 @@ resources
    ```bash
    git clone [https://github.com/your-username/your-portfolio.git](https://github.com/your-username/your-portfolio.git)
 
-2. NPM Install
+2. Navivate to your portfolio
+   ```bash
+   cd your-portfolio
+
+3. Install dependencies:
 ```bash
 npm install
-cd your-portfolio
+
+## Running the Development Server
+```bash
+npm start
+
 
 
