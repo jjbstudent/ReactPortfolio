@@ -35,10 +35,8 @@ resources
 3. Install dependencies:
 ```bash
 npm install
+'''bash
 
-## Running the Development Server
-```bash
-npm start
 
 
 
