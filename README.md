@@ -28,5 +28,8 @@ resources
    ```bash
    git clone [https://github.com/your-username/your-portfolio.git](https://github.com/your-username/your-portfolio.git)
 
+```bash
+npm install
+cd your-portfolio
 
 
