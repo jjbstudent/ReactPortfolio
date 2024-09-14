@@ -1,4 +1,5 @@
 import React from 'react'
+import About from './components/About'
 import Navbar from './components/NavBar'
 import Hero from './components/hero'
 
@@ -10,6 +11,7 @@ const App = () => {
       <div className='container mx-auto px-8'></div>
       <Navbar />
       <Hero />
+      <About />
     </div>
   )
 }
