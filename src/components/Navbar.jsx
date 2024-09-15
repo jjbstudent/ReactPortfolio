@@ -1,4 +1,4 @@
-import logo from "../assets/projects/jblogo.jpg";
+import logo from "../assets/images/jblogo.jpg";
 import {FaLinkedin, FaLinkedinIn} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {FaSquareXTwitter} from "react-icons/fa6";

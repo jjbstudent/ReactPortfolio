@@ -1,41 +1,42 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/images/project-1.jpg";
+import project2 from "../assets/images/project-2.jpg";
+import project3 from "../assets/images/project-3.jpg";
+import project4 from "../assets/images/project-4.jpg";
 
 export const HERO_CONTENT = `I'm a front-end web development bootcamp graduate with hands-on experience in HTML, CSS, JavaScript, React, Node.js, and APIs. I've built several small web projects and am eager to apply my skills in future employment opportunities, contributing to innovative and user-friendly web applications while continuously growing as a developer.`;
 export const ABOUT_TEXT = `I am a passionate front-end developer and a graduate of the edX Bootcamp, where I honed versatile skills across various coding languages and technologies. With a strong foundation in HTML, CSS, JavaScript, and React, I have demonstrated my ability to build dynamic, responsive web applications. I thrive on solving complex problems and continually push myself to stay updated with the latest industry trends. My hands-on experience through diverse projects has equipped me with the expertise needed to create user-friendly, efficient web solutions. I'm eager to bring my skills to the next challenge and contribute to innovative teams.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
+    year: "2024 - Present",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    project: "Portfolio Website",
+    description: `Designed and developed a personal portfolio website to showcase projects and skills. Built with React.js, this website features multiple pages, including a homepage, project showcase, and contact form. Implemented responsive design for an optimal user experience across devices.`,
+    technologies: ["React.js", "CSS", "JavaScript", "GitHub"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "2023",
+    role: "Frontend Developer",
+    project: "E-commerce Web Application",
+    description: `Collaborated with a team of developers to create a mock e-commerce platform. Developed frontend components using React.js, and integrated with backend APIs to handle product listings, shopping cart functionality, and user authentication.`,
+    technologies: ["React.js", "Node.js", "APIs", "MongoDB"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2023",
+    role: "Frontend Developer",
+    project: "Weather App",
+    description: `Developed a weather application that fetches real-time weather data using a public API. The app allows users to search for weather data by location and displays responsive, user-friendly weather updates.`,
+    technologies: ["JavaScript", "HTML", "CSS", "React.js", "API Integration"],
+  },
+  {
+    year: "2023",
+    role: "Frontend Developer",
+    project: "Task Manager",
+    description: `Built a task management web app that enables users to create, manage, and delete tasks. The application stores tasks in the browser's local storage, ensuring persistence across sessions.`,
+    technologies: ["React.js", "CSS", "JavaScript", "LocalStorage"],
   },
 ];
+
 
 export const PROJECTS = [
   {
