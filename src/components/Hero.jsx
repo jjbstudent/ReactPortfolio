@@ -1,3 +1,4 @@
+// Importing the content for the hero section and the profile picture
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/images/JermainePic.jpg";
 
