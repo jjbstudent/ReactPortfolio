@@ -5,8 +5,6 @@ import { BiLogoJquery } from "react-icons/bi";    // jquery
 import { RiBootstrapLine } from "react-icons/ri";     //bootstrap
 import { TiHtml5 } from "react-icons/ti";  // css html
 
-
-
 const Technologies = () => {
   return (
     <div className='border-b border-neutral-800 pb-24'>
