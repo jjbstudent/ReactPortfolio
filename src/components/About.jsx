@@ -22,7 +22,7 @@ const About = () => {
         {/* Text Section */}
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center lg:justify-start">
-          <p className="my-2 maxw-xl py-6">{ABOUT_TEXT}</p>
+          <p className="my-20 py-5">{ABOUT_TEXT}</p>
           </div>
         </div>
         

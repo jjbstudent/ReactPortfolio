@@ -10,26 +10,12 @@ export const ABOUT_TEXT = `I am a passionate front-end developer and a graduate 
 export const EXPERIENCES = [
   {
     year: "November 2023 - April 2024",
-    role: "Frontend Developer (Bootcamp Project)",
-    project: "Portfolio Website",
-    description: `Designed and developed a personal portfolio website as part of a 16-week bootcamp focused on front-end development. This project showcases the skills learned during the course, including building with React.js. The website features a homepage, project gallery, and contact form, with an emphasis on responsive design for a seamless user experience across devices.`,
-    technologies: ["React.js", "CSS", "JavaScript", "GitHub"],
+    role: "Frontend Developer (Bootcamp Projects)",
+    company: "Edx Bootcamp",
+    description: `Designed and developed a personal portfolio website as part of a 16-week bootcamp focused on front-end development. This project showcases the skills learned during the course, including building with React.js. The website features a homepage, project gallery, and contact section, with an emphasis on responsive design for a seamless user experience across devices.`,
+    technologies: ["React.js", "CSS", "JavaScript", "GitHub", "HTML", "UI/UX design", "JQuery", ],
   },
   
-  {
-    year: "2024",
-    role: "Frontend Developer (Group Project)",
-    project: "Events Finder API App",
-    description: `Collaborated in a group to develop an events finder app. The app integrates with a public events API to allow users to search for and explore events by location and date. I was responsible for creating the user interface and handling API integration for event listings.`,
-    technologies: ["React.js", "JavaScript", "API Integration", "CSS"],
-  },
-  {
-    year: "2024",
-    role: "Frontend Developer (Group Project)",
-    project: "Budgeting App",
-    description: `Worked with a team to develop a budgeting app that helps users manage their income and expenses. I focused on building frontend components using React.js and implementing features like transaction tracking, category management, and data visualization with charts.`,
-    technologies: ["React.js", "JavaScript", "CSS", "APIs"],
-  },
 ];
 
 export const PROJECTS = [

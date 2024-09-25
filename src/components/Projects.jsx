@@ -38,7 +38,7 @@ const Projects = () => {
                     {/* Map through technologies and display them as tags */}
                     <div>
                       {project.technologies.map((tech, techIndex) => (
-                        <span key={techIndex} className="mr-2 mb-2 inline-block rounded bg-neutral-900 px-2 py-1 text-white">
+                        <span key={techIndex} className="mr-2 mb-2 inline-block rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900">
                           {tech}
                         </span>
                       ))}
