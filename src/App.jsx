@@ -1,7 +1,7 @@
 import React from 'react'
 import About from './components/About'
 import Navbar from './components/NavBar'
-import Hero from './components/hero'
+import Hero from './components/Hero'
 import Technologies from './components/Technologies'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
@@ -22,6 +22,8 @@ const App = () => {
       <Technologies />
       <Experience />
       <Projects />
+
+   
    
     </div>
   )

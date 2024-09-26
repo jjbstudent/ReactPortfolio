@@ -3,9 +3,22 @@ import project2 from "../assets/images/project-2.jpg";
 import project3 from "../assets/images/project-3.jpg";
 import project4 from "../assets/images/project-4.jpg";
 import project5 from "../assets/images/project-5.jpg";
+import Certificate from "../assets/images/badge.png";
 
 export const HERO_CONTENT = `I'm a front-end web development bootcamp graduate with hands-on experience in HTML, CSS, JavaScript, React, Node.js, and APIs. I've built several small web projects and am eager to apply my skills in future employment opportunities, contributing to innovative and user-friendly web applications while continuously growing as a developer.`;
-export const ABOUT_TEXT = `I am a passionate front-end developer and a graduate of the edX Bootcamp, where I honed versatile skills across various coding languages and technologies. With a strong foundation in HTML, CSS, JavaScript, and React, I have demonstrated my ability to build dynamic, responsive web applications. I thrive on solving complex problems and continually push myself to stay updated with the latest industry trends. My hands-on experience through diverse projects has equipped me with the expertise needed to create user-friendly, efficient web solutions. I'm eager to bring my skills to the next challenge and contribute to innovative teams.`;
+
+export const ABOUT_ME = [
+  {
+    about_text: `I am a dedicated and passionate bootcamp graduate with a strong foundation in front-end development. I successfully completed a 16-week intensive program with edX, where I honed my skills in various coding languages and technologies. Throughout the bootcamp, I created individual projects that challenged my creativity and technical abilities, while also collaborating with fellow students on group projects. This experience not only enhanced my coding skills but also taught me the importance of teamwork and effective communication in delivering high-quality web applications. I am eager to bring my knowledge and enthusiasm to new challenges and contribute to innovative projects.`,
+    
+    // Renaming for clarity
+    certificate: {
+      image: Certificate,  // badge image
+      href: 'https://skillsbootcamp.credential.getsmarter.com/8f405795-6d93-452d-ac4b-0e9fe64f8d2c#gs.ey5qcw',    // Certificate URL
+    },
+  },
+];
+
 
 export const EXPERIENCES = [
   {
@@ -53,7 +66,13 @@ export const PROJECTS = [
 
 
 export const CONTACT = {
-  address: " ",
-  phoneNo: "",
-  email: "",
+  linkedIn: {
+    label: "LinkedIn",
+    url: "https://www.linkedin.com/in/your-profile", // Replace with your LinkedIn profile link
+  },
+  email: {
+    label: "Email Me",
+    url: "mailto:jblearn2023@gmail.com",
+  },
 };
+
