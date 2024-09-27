@@ -66,13 +66,7 @@ export const PROJECTS = [
 
 
 export const CONTACT = {
-  linkedIn: {
-    label: "LinkedIn",
-    url: "https://www.linkedin.com/in/your-profile", // Replace with your LinkedIn profile link
-  },
-  email: {
-    label: "Email Me",
-    url: "mailto:jblearn2023@gmail.com",
-  },
+  linkedIn: "LinkedIn",
+  email: "jblearn2023@gmail.com",
 };
 
