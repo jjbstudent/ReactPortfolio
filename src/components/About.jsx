@@ -1,6 +1,7 @@
 import badge from "../assets/images/badge.png";
 import { ABOUT_ME } from "../constants";
 
+
 const About = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
@@ -22,20 +23,21 @@ const About = () => {
               className="relative group" // Group class for hover effect
             >
               <img 
-                className="w-100 h-80 rounded-lg transition-transform duration-300 transform group-hover:scale-105" // Scaling on hover
+                className="w-200 h-200 rounded-lg transition-transform duration-300 transform group-hover:scale-105" // Scaling on hover
                 src={ABOUT_ME[0].certificate.image} 
                 alt='Certification Badge' 
               />
-              {/* Highlight effect */}
-              <div className="absolute inset-0 bg-blue-500 opacity-0 rounded-lg transition-opacity duration-300 group-hover:opacity-30" />
+              
             </a>
+            
+            
           </div>
         </div>
         
         {/* Text Section */}
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex flex-col justify-center lg:justify-start">
-            <p className="my-10 py-5">{ABOUT_ME[0].about_text}</p>
+            <p className="py-5 ml-10 mr-10">{ABOUT_ME[0].about_text}</p>
           </div>
         </div>
       </div>
