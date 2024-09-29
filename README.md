@@ -1,4 +1,4 @@
-# Jermaine Bandoo's React Portfolio
+# React Portfolio
 
 Welcome to my React portfolio! I’m Jermaine Bandoo, a passionate front-end developer with a focus on creating dynamic and user-friendly web applications using React. This repository showcases my work and projects developed during my journey in web development.
 
