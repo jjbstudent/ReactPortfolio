@@ -31,7 +31,7 @@ To get a local copy of this portfolio up and running, follow these steps:
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/your-repo.git
+    git clone git@github.com:jjbstudent/ReactPortfolio.git
     ```
 2. **Navigate to the project directory**
     ```bash
@@ -40,6 +40,7 @@ To get a local copy of this portfolio up and running, follow these steps:
 3. **Install dependencies**
     ```bash
     npm install
+    
     ```
 4. **Start the development server**
     ```bash
@@ -57,8 +58,8 @@ To get a local copy of this portfolio up and running, follow these steps:
 
 Feel free to connect with me or reach out if you have any questions:
 
-- [LinkedIn](https://www.linkedin.com/in/yourlinkedin)
-- [Email](mailto:your-email@example.com)
+- [LinkedIn]([https://www.linkedin.com/in/yourlinkedin](https://www.linkedin.com/in/jermaine-bandoo-bb7b802a5/))
+- [Email](mailto:jblearn2023@gmail.com)
 - [Portfolio Website](link-to-portfolio-website)
 
 ## 📄 License
