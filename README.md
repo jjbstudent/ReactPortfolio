@@ -58,6 +58,10 @@ To get a local copy of this portfolio up and running, follow these steps:
 3. **Install dependencies**
     ```bash
     npm install
+    npm install -D tailwindcss
+    npx tailwindcss init
+    npm install framer-motion
+
     
     ```
 4. **Start the development server**
