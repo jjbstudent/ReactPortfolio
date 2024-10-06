@@ -19,7 +19,7 @@ const Projects = () => {
               <div key={index} className="mb-8 flex flex-wrap justify-center">
                   
                     {/* Display the project's image */}
-                    <div className='w-full lg:w-1/4 flex justify-center'>
+                    <div className='animate-pulse  w-full lg:w-1/4 flex justify-center'>
                     <img 
                         src={project.image} 
                         width={200} // Set the desired width
