@@ -22,12 +22,12 @@ const About = () => {
               className="relative group" // Group class for hover effect
             >
               <img 
-                className="w-100 h-80 rounded-lg transition-transform duration-300 transform group-hover:scale-105" // Scaling on hover
+                className="w-100 h-80 rounded-lg transition-transform duration-300 transform group-hover:scale-105 animate-bounce" // Scaling on hover
                 src={ABOUT_ME[0].certificate.image} 
                 alt='Certification Badge' 
               />
-              {/* Highlight effect */}
-              <div className="absolute inset-0 bg-blue-500 opacity-0 rounded-lg transition-opacity duration-300 group-hover:opacity-30" />
+
+              
             </a>
           </div>
         </div>
