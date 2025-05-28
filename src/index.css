@@ -7,3 +7,28 @@
 :root {
   font-family: "Inter", sans-serif;
 }
+
+/*
+  Custom Animations for Technologies Icons
+  ---------------------------------------
+  .wiggle: Rotates the icon back and forth for a playful effect.
+  .shake: Shakes the icon horizontally for attention-grabbing feedback.
+  These are used in combination with Tailwind's built-in animations (spin, bounce, pulse)
+  and are triggered randomly on hover in the Technologies component.
+*/
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-8deg); }
+  50% { transform: rotate(8deg); }
+}
+.wiggle {
+  animation: wiggle 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-8px); }
+  40%, 80% { transform: translateX(8px); }
+}
+.shake {
+  animation: shake 0.5s;
+}

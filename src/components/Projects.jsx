@@ -25,8 +25,7 @@ const Projects = () => {
                         width={200} // Set the desired width
                         height={200} // Set the same height for a square
                         alt={project.title}
-                        className="mb-6 rounded" 
-                        
+                        className="mb-6 rounded transition duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:ring-4 hover:ring-purple-400/60" 
                     />
                     </div>
 
